@@ -2,6 +2,10 @@
 
 Code, agent bundles and per-task scores for the paper *Most failures were never winnable: auditing the ceiling, the noise and the tool channel of a 31B local coding agent* (Kaggle, Google – The Gemma 4 Developer Agent Paper Track, 2026). Author: Kapil Chopra.
 
+![Where the 30 held-out tasks end up: 9 solved in every run, 3 winnable, 6 underspecified, 7 out of scale, 5 missing information](figures/task-outcomes.svg)
+
+*The paper's main result (Figure 1, §4.2): of 30 held-out tasks, 9 are solved in every run and 12 are not reachable from the issue text within the budget.*
+
 This repository holds no competition data: no task text, hidden tests, reference patches, agent traces or logs. Task IDs and per-task numbers only.
 
 ## Contents
@@ -9,6 +13,7 @@ This repository holds no competition data: no task text, hidden tests, reference
 | Path | What |
 |---|---|
 | `PAPER.md` | The paper |
+| `figures/` | Figure 1 as SVG and PNG |
 | `bundles/` | Submitted agent bundles (prompt, tools, limits, sampling): `v7`, `v7b` (#10–#12), `v7c` (#13, no edit tool), `v8`, `v8b` (#14), `v6b` (editor skill) |
 | `results/eval_set_30.txt`, `eval_set_30b.txt`, `eval_set_10_v8b.txt`, `sound_tasks.txt` | Task-ID lists for the local evaluation sets; `sound_tasks.txt` lists the 103 local tasks whose empty patch fails and reference patch passes |
 | `results/<run>/eval_results.csv` | One row per task: resolved, patch size, tool calls, seconds |
