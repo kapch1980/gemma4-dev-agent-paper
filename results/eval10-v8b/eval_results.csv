@@ -1,0 +1,11 @@
+id,repo,resolved,patch_chars,tool_calls,duration_s
+fastapi_13920,fastapi/fastapi,False,1712,28,414.1
+fastapi_14616,fastapi/fastapi,False,1100,28,232.2
+rich_3063,Textualize/rich,False,360,20,426.7
+rich_3180,Textualize/rich,False,0,16,423.8
+fastapi_14349,fastapi/fastapi,True,879,21,297.3
+fastapi_14360,fastapi/fastapi,True,1188,27,336.9
+rich_2725,Textualize/rich,True,608,13,117.0
+rich_3006,Textualize/rich,True,557,28,216.8
+rich_3518,Textualize/rich,True,528,26,124.4
+rich_3882,Textualize/rich,True,502,21,89.5
