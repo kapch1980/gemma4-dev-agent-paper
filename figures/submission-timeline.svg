@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 790" width="1100" height="790" role="img" aria-labelledby="t d" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+<title id="t">Submission timeline and public scores</title><desc id="d">Fourteen daily submissions in order with what changed and the public leaderboard score. Scored submissions range from 0.12 to 0.18; three received no score.</desc>
+<rect x="0.5" y="0.5" width="1099" height="789" rx="14" fill="#fcfcfb" stroke="#e4e3de"/>
+<text x="48" y="50" font-size="20" font-weight="650" fill="#0b0b0b">One submission a day, one plateau</text>
+<text x="48" y="72" font-size="13" fill="#52514e">What changed in each daily submission, and the public leaderboard score it received. One task is about 0.017.</text>
+<text x="48" y="140" font-size="11.5" font-weight="650" fill="#8a8983" letter-spacing="0.6">DAY</text>
+<text x="96" y="140" font-size="11.5" font-weight="650" fill="#8a8983" letter-spacing="0.6">WHAT CHANGED</text>
+<text x="600" y="140" font-size="11.5" font-weight="650" fill="#8a8983" letter-spacing="0.6">PUBLIC SCORE</text>
+<text x="950" y="140" font-size="11.5" font-weight="650" fill="#8a8983" letter-spacing="0.6">LOCAL SOLVES</text>
+<rect x="773.8" y="154" width="66.2" height="512" fill="#2a78d6" opacity="0.09"/>
+<line x1="600.0" x2="600.0" y1="154" y2="666" stroke="#e4e3de"/>
+<text x="600.0" y="684" font-size="11.5" fill="#8a8983" text-anchor="middle">0.00</text>
+<line x1="660.0" x2="660.0" y1="154" y2="666" stroke="#e4e3de"/>
+<text x="660.0" y="684" font-size="11.5" fill="#8a8983" text-anchor="middle">0.05</text>
+<line x1="720.0" x2="720.0" y1="154" y2="666" stroke="#e4e3de"/>
+<text x="720.0" y="684" font-size="11.5" fill="#8a8983" text-anchor="middle">0.10</text>
+<line x1="780.0" x2="780.0" y1="154" y2="666" stroke="#e4e3de"/>
+<text x="780.0" y="684" font-size="11.5" fill="#8a8983" text-anchor="middle">0.15</text>
+<line x1="840.0" x2="840.0" y1="154" y2="666" stroke="#e4e3de"/>
+<text x="840.0" y="684" font-size="11.5" fill="#8a8983" text-anchor="middle">0.20</text>
+<line x1="900.0" x2="900.0" y1="154" y2="666" stroke="#e4e3de"/>
+<text x="900.0" y="684" font-size="11.5" fill="#8a8983" text-anchor="middle">0.25</text>
+<line x1="888.0" x2="888.0" y1="154" y2="666" stroke="#52514e" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="48" y="180" font-size="13" font-weight="650" fill="#0b0b0b">1</text>
+<text x="96" y="180" font-size="13" fill="#0b0b0b"><tspan font-weight="650">Prompt v3b</tspan><tspan fill="#52514e" dx="8">call-budget wording</tspan></text>
+<line x1="600.0" x2="756.0" y1="176" y2="176" stroke="#2a78d6" stroke-width="2" opacity="0.35"/>
+<circle cx="756.0" cy="176" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="770.0" y="180.5" font-size="13" font-weight="650" fill="#0b0b0b">0.13</text>
+<line x1="48" x2="1052" y1="194.0" y2="194.0" stroke="#e4e3de" opacity="0.6"/>
+<text x="48" y="216" font-size="13" font-weight="650" fill="#0b0b0b">2</text>
+<text x="96" y="216" font-size="13" fill="#0b0b0b"><tspan font-weight="650">b024 baseline, unchanged</tspan><tspan fill="#52514e" dx="8">control run</tspan></text>
+<circle cx="600.0" cy="212" r="5.5" fill="#fcfcfb" stroke="#8a8983" stroke-width="2"/>
+<text x="614.0" y="216" font-size="12" fill="#52514e">no score: run passed the 12-hour limit</text>
+<text x="950" y="216" font-size="12.5" fill="#52514e">9 of 30</text>
+<line x1="48" x2="1052" y1="230.0" y2="230.0" stroke="#e4e3de" opacity="0.6"/>
+<text x="48" y="252" font-size="13" font-weight="650" fill="#0b0b0b">3</text>
+<text x="96" y="252" font-size="13" fill="#0b0b0b"><tspan font-weight="650">Public b024 variant</tspan><tspan fill="#52514e" dx="8">7 min, 6,144 output tokens</tspan></text>
+<line x1="600.0" x2="780.0" y1="248" y2="248" stroke="#2a78d6" stroke-width="2" opacity="0.35"/>
+<circle cx="780.0" cy="248" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="794.0" y="252.5" font-size="13" font-weight="650" fill="#0b0b0b">0.15</text>
+<line x1="48" x2="1052" y1="266.0" y2="266.0" stroke="#e4e3de" opacity="0.6"/>
+<text x="48" y="288" font-size="13" font-weight="650" fill="#8a8983">4</text>
+<text x="96" y="288" font-size="13" fill="#8a8983"><tspan font-weight="400">Not reported in the paper</tspan><tspan fill="#52514e" dx="8"></tspan></text>
+<line x1="48" x2="1052" y1="302.0" y2="302.0" stroke="#e4e3de" opacity="0.6"/>
+<text x="48" y="324" font-size="13" font-weight="650" fill="#0b0b0b">5</text>
+<text x="96" y="324" font-size="13" fill="#0b0b0b"><tspan font-weight="650">b024 baseline, unchanged</tspan><tspan fill="#52514e" dx="8">same control again</tspan></text>
+<line x1="600.0" x2="804.0" y1="320" y2="320" stroke="#2a78d6" stroke-width="2" opacity="0.35"/>
+<circle cx="804.0" cy="320" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="818.0" y="324.5" font-size="13" font-weight="650" fill="#0b0b0b">0.17</text>
+<text x="950" y="324" font-size="12.5" fill="#52514e">9 of 30</text>
+<line x1="48" x2="1052" y1="338.0" y2="338.0" stroke="#e4e3de" opacity="0.6"/>
+<text x="48" y="360" font-size="13" font-weight="650" fill="#0b0b0b">6</text>
+<text x="96" y="360" font-size="13" fill="#0b0b0b"><tspan font-weight="650">b024 + LoRA</tspan><tspan fill="#52514e" dx="8">half strength</tspan></text>
+<circle cx="600.0" cy="356" r="5.5" fill="#fcfcfb" stroke="#8a8983" stroke-width="2"/>
+<text x="614.0" y="360" font-size="12" fill="#52514e">no score: run passed the 12-hour limit</text>
+<line x1="48" x2="1052" y1="374.0" y2="374.0" stroke="#e4e3de" opacity="0.6"/>
+<text x="48" y="396" font-size="13" font-weight="650" fill="#0b0b0b">7</text>
+<text x="96" y="396" font-size="13" fill="#0b0b0b"><tspan font-weight="650">b024 + LoRA</tspan><tspan fill="#52514e" dx="8">full strength</tspan></text>
+<circle cx="600.0" cy="392" r="5.5" fill="#fcfcfb" stroke="#8a8983" stroke-width="2"/>
+<text x="614.0" y="396" font-size="12" fill="#52514e">no score: run passed the 12-hour limit</text>
+<line x1="48" x2="1052" y1="410.0" y2="410.0" stroke="#e4e3de" opacity="0.6"/>
+<text x="48" y="432" font-size="13" font-weight="650" fill="#0b0b0b">8</text>
+<text x="96" y="432" font-size="13" fill="#0b0b0b"><tspan font-weight="650">b024 + LoRA, tighter limits</tspan><tspan fill="#52514e" dx="8">6 min, thinking 2,048</tspan></text>
+<line x1="600.0" x2="804.0" y1="428" y2="428" stroke="#2a78d6" stroke-width="2" opacity="0.35"/>
+<circle cx="804.0" cy="428" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="818.0" y="432.5" font-size="13" font-weight="650" fill="#0b0b0b">0.17</text>
+<line x1="48" x2="1052" y1="446.0" y2="446.0" stroke="#e4e3de" opacity="0.6"/>
+<text x="48" y="468" font-size="13" font-weight="650" fill="#0b0b0b">9</text>
+<text x="96" y="468" font-size="13" fill="#0b0b0b"><tspan font-weight="650">No graph tools, hot sampling</tspan><tspan fill="#52514e" dx="8">temperature 1.0, top_k 64</tspan></text>
+<line x1="600.0" x2="744.0" y1="464" y2="464" stroke="#2a78d6" stroke-width="2" opacity="0.35"/>
+<circle cx="744.0" cy="464" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="758.0" y="468.5" font-size="13" font-weight="650" fill="#0b0b0b">0.12</text>
+<line x1="48" x2="1052" y1="482.0" y2="482.0" stroke="#e4e3de" opacity="0.6"/>
+<text x="48" y="504" font-size="13" font-weight="650" fill="#0b0b0b">10</text>
+<text x="96" y="504" font-size="13" fill="#0b0b0b"><tspan font-weight="650">v7: no graph tools</tspan><tspan fill="#52514e" dx="8">temperature 0.2, 7 min, thinking 2,048</tspan></text>
+<line x1="600.0" x2="804.0" y1="500" y2="500" stroke="#2a78d6" stroke-width="2" opacity="0.35"/>
+<circle cx="804.0" cy="500" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="818.0" y="504.5" font-size="13" font-weight="650" fill="#0b0b0b">0.17</text>
+<line x1="48" x2="1052" y1="518.0" y2="518.0" stroke="#e4e3de" opacity="0.6"/>
+<text x="48" y="540" font-size="13" font-weight="650" fill="#0b0b0b">11</text>
+<text x="96" y="540" font-size="13" fill="#0b0b0b"><tspan font-weight="650">v7b: tool-mechanics prompt</tspan><tspan fill="#52514e" dx="8">v7 + six prompt edits</tspan></text>
+<line x1="600.0" x2="804.0" y1="536" y2="536" stroke="#2a78d6" stroke-width="2" opacity="0.35"/>
+<circle cx="804.0" cy="536" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="818.0" y="540.5" font-size="13" font-weight="650" fill="#0b0b0b">0.17</text>
+<text x="950" y="540" font-size="12.5" fill="#52514e">10, 9, 9 of 30</text>
+<line x1="48" x2="1052" y1="554.0" y2="554.0" stroke="#e4e3de" opacity="0.6"/>
+<text x="48" y="576" font-size="13" font-weight="650" fill="#0b0b0b">12</text>
+<text x="96" y="576" font-size="13" fill="#0b0b0b"><tspan font-weight="650">v7b again</tspan><tspan fill="#52514e" dx="8">the same zip, graded a second time</tspan></text>
+<line x1="600.0" x2="816.0" y1="572" y2="572" stroke="#2a78d6" stroke-width="2" opacity="0.35"/>
+<circle cx="816.0" cy="572" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="830.0" y="576.5" font-size="13" font-weight="650" fill="#0b0b0b">0.18</text>
+<text x="950" y="576" font-size="12.5" fill="#52514e">10, 9, 9 of 30</text>
+<line x1="48" x2="1052" y1="590.0" y2="590.0" stroke="#e4e3de" opacity="0.6"/>
+<text x="48" y="612" font-size="13" font-weight="650" fill="#0b0b0b">13</text>
+<text x="96" y="612" font-size="13" fill="#0b0b0b"><tspan font-weight="650">v7c: no edit tool</tspan><tspan fill="#52514e" dx="8">every edit through one shell string</tspan></text>
+<line x1="600.0" x2="780.0" y1="608" y2="608" stroke="#2a78d6" stroke-width="2" opacity="0.35"/>
+<circle cx="780.0" cy="608" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="794.0" y="612.5" font-size="13" font-weight="650" fill="#0b0b0b">0.15</text>
+<text x="950" y="612" font-size="12.5" fill="#52514e">9, 9, 9 of 30</text>
+<line x1="48" x2="1052" y1="626.0" y2="626.0" stroke="#e4e3de" opacity="0.6"/>
+<text x="48" y="648" font-size="13" font-weight="650" fill="#0b0b0b">14</text>
+<text x="96" y="648" font-size="13" fill="#0b0b0b"><tspan font-weight="650">v8b: budget-check rules</tspan><tspan fill="#52514e" dx="8">v7b + status-check and call-site rules</tspan></text>
+<text x="614.0" y="648" font-size="12" fill="#8a8983">score not in the paper</text>
+<text x="950" y="648" font-size="12.5" fill="#52514e">6 of 10</text>
+<rect x="48" y="707" width="22" height="13" fill="#2a78d6" opacity="0.14"/>
+<text x="80" y="718" font-size="12.5" fill="#52514e">Spread of byte-identical submissions of the baseline family: about 10 of 58 tasks, plus or minus 1.6 (one SD)</text>
+<line x1="48" x2="70" y1="738" y2="738" stroke="#52514e" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="80" y="742" font-size="12.5" fill="#52514e">0.24: the score the public baseline reported, a high draw</text>
+<text x="80" y="766" font-size="12.5" fill="#52514e">Local solves are on eval30 (one number per run); day 14 is a 10-task check. Rows are in submission order.</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTphYzFiOWE2Ny04ZDgxLTQyNzgtOTUwYS05YmM3YmY5ODg1NDkAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaENEipY9NgDO3h856cwWzLUAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo5ZjdlNjJkOC1lY2I2LTQxNjgtYjIwMC00MTU2YzU4NWYzNWJscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoEX91gV7rrdeHqtv8tmQQzgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggUuf+H5WcXDTukERn1MOWpCXHD3ZOWTOV/2PO3DoSFzqkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaIFjRHgAm3EU4fWdZpva4EAAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIB10jwia3FMaiPSSUNjnudADs9wb6FiulV9R52lqRDBtZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GStJZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmFjMWI5YTY3LThkODEtNDI3OC05NTBhLTliYzdiZjk4ODU0OS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmY0YWExZjZmLTNlNGMtNGUyNy1iOTBjLWRhZWFlMDE4MzY5NnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBS5/4flZxcNO6QRGfUw5akJccPdk5ZM5X/Y87cOhIXOqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggLs/RJrBJlxNY0gFIKlse0MzOCxjBvRJ0eR8yDMDNILeiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggWgwoHanCXDdNFKSH4gXgMPTbVllyagP8GJ8Y8QQag2V0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQBeqJfvogL4T9gniveanEx2U5FjQTqNexQjakh6T+wCyd7EfSymLRbxkcX8G/RgD+eF1lctmE+0JaeRqjE+2di4=</c2pa:manifest></metadata></svg>

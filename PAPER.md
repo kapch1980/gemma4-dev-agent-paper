@@ -1,12 +1,12 @@
 # Most failures were never winnable: auditing the ceiling, the noise and the tool channel of a 31B local coding agent
 
-*Why thirteen prompt, tool, sampling and LoRA submissions of Gemma 4 converged on the same score*
+*Why fourteen prompt, tool, sampling and LoRA submissions of Gemma 4 converged on the same score*
 
 Author: Kapil Chopra
 
 ## Abstract
 
-We study Gemma 4 31B (QAT, w4a16) as a coding agent on real GitHub issues: a declarative bundle, 28 tool calls and about 7 minutes per task on four L4 GPUs, judged by hidden tests. Thirteen leaderboard submissions with different prompts, tools, sampling, budgets and self-distilled LoRA adapters scored between 0.12 and 0.18 whenever they finished inside the time limit (three did not and received no score); the same bundle graded twice scored 0.17 and 0.18. We explain the plateau with five measurements. (1) **Outcomes are nearly deterministic per task:** 20 of 30 held-out tasks were never solved in 7–19 runs and 9 almost always were; a second held-out set, run twice, shows the same three groups with more coin-flip tasks (5 of 30). (2) **Most never-solved tasks are not winnable from the issue text within this budget:** checked against their hidden tests, 5 of 21 require a name, exact message or exact output the issue never states, 7 are large features or migrations far beyond a 28-call budget, 6 are underspecified, and only 3 are clearly winnable. (3) **A tool-channel defect costs calls, not solves:** 21–25% of `edit_file` calls arrive garbled because of how multi-argument tool calls are parsed. Routing every edit through one shell string eliminated garbling and cut repeated calls by 40%, but solved the same tasks. (4) **Self-monitoring instructions are mostly ignored:** a rule to check the remaining budget was followed in 2–4 of 30 tasks, no more often than without the rule; a third of tasks still end with no patch. (5) **Self-distilled LoRA** passes a held-out loss gate but adds no solves and makes tasks 29–45% slower, which blanked two submissions at the 12-hour limit.
+We study Gemma 4 31B (QAT, w4a16) as a coding agent on real GitHub issues: a declarative bundle, 28 tool calls and about 7 minutes per task on four L4 GPUs, judged by hidden tests. Fourteen leaderboard submissions with different prompts, tools, sampling, budgets and self-distilled LoRA adapters scored between 0.12 and 0.18 whenever they finished inside the time limit (three did not and received no score); the same bundle graded twice scored 0.17 and 0.18. We explain the plateau with five measurements. (1) **Outcomes are nearly deterministic per task:** 20 of 30 held-out tasks were never solved in 7–19 runs and 9 almost always were; a second held-out set, run twice, shows the same three groups with more coin-flip tasks (5 of 30). (2) **Most never-solved tasks are not winnable from the issue text within this budget:** checked against their hidden tests, 5 of 21 require a name, exact message or exact output the issue never states, 7 are large features or migrations far beyond a 28-call budget, 6 are underspecified, and only 3 are clearly winnable. (3) **A tool-channel defect costs calls, not solves:** 21–25% of `edit_file` calls arrive garbled because of how multi-argument tool calls are parsed. Routing every edit through one shell string eliminated garbling and cut repeated calls by 40%, but solved the same tasks. (4) **Self-monitoring instructions are mostly ignored:** a rule to check the remaining budget was followed in 2–4 of 30 tasks, no more often than without the rule; a third of tasks still end with no patch. (5) **Self-distilled LoRA** passes a held-out loss gate but adds no solves and makes tasks 29–45% slower, which blanked two submissions at the 12-hour limit.
 
 ## 1. Introduction
 
@@ -40,8 +40,9 @@ We study Gemma 4 31B (QAT, w4a16) as a coding agent on real GitHub issues: a dec
 | 10 | no graph tools, temperature 0.2, 7 min, thinking 2,048, 150 s per command ("v7") | 0.17 |
 | 11, 12 | v7 + six tool-mechanics prompt edits ("v7b"), same zip twice | 0.17, 0.18 |
 | 13 | v7b without `edit_file`/`write_file`; all edits via one shell string ("v7c", §5) | 0.15 |
+| 14 | v7b + two self-monitoring rules ("v8b", §5.2) | 0.18 |
 
-- Three bundles that differ in adapter, tools, limits and prompt (#8, #10, #11/#12) score 10–11/58 tasks. The same zip graded twice differed by one task; the byte-identical b024 bundle scored blank and 0.17 for us and 0.24 for its author. A public census by another participant found that byte-identical submissions of the b024 family vary with SD ≈ 1.6 tasks and average about 10/58, so the "0.24" was a high draw.
+- Three bundles that differ in adapter, tools, limits and prompt (#8, #10, #11/#12, #14) score 10–11/58 tasks. The same zip graded twice differed by one task; the byte-identical b024 bundle scored blank and 0.17 for us and 0.24 for its author. A public census by another participant found that byte-identical submissions of the b024 family vary with SD ≈ 1.6 tasks and average about 10/58, so the "0.24" was a high draw.
 - **Blanks are the time limit:** 337 s per task at the b024 limits × ~120 tasks plus overhead ≈ 12.2 h. Capping tasks at 7 minutes, thinking at 2,048 tokens and commands at 150 s (#10) cost nothing measurable and has not blanked since. The 7-minute limit is soft: in each of our eight final eval30 runs, 6–8 of 30 tasks ran past 420 s (longest 724 s), with a mean of 282–315 s per task.
 - **Graph tools** were declared but never called (0 calls in 453 traces); removing them changed nothing. Temperature 1.0 (#9, 0.12) is within two tasks of the plateau; we reverted it.
 
@@ -131,7 +132,7 @@ Locally we solve 30–40%; on the leaderboard 17%. The hosts state that hidden t
 - The census (§4.2) was done by one LLM analyst with the answer key and checked by one author, on public tasks that, unlike the hidden ones, were not screened for feasibility; borderline calls could go either way, hence the ceiling range. No second rater and no stronger model tested the verdicts, and 7 of the 12 unwinnable verdicts rest on scale rather than missing information.
 - Per-task stability (§4.1) was measured at temperature 0.2; temperature 1.0 was tried only on the leaderboard (#9), so part of the stability may come from low-temperature sampling. eval30b was run only twice.
 - The replay in §5 measures whether recorded edits would apply, not whether the model would write the same edits with a different tool.
-- Leaderboard conclusions rest on thirteen submissions, one per day, each ±3 tasks; the v7c leaderboard A/B is a single pair of draws.
+- Leaderboard conclusions rest on fourteen submissions, one per day, each ±3 tasks; the v7c leaderboard A/B is a single pair of draws.
 - Rule-following (§5.2) was measured for two generic rules on one model; other phrasings or placements might be followed more often.
 
 ## 10. Reproducibility
