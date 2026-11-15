@@ -22,6 +22,17 @@ This repository holds no competition data: no task text, hidden tests, reference
 
 Run names map to the paper as follows: `eval30-v7b*` = v7b ×3, `eval30-v7c*` = v7c ×3 (§5.1), `eval30-v8-*` = v8 ×2 (§5.2), `eval30b-v7c-*` = second held-out set (§4.1), `eval10-v8b` = v8b check.
 
+## Leaderboard after the paper
+
+The paper's table (§3) ends at #14. Submissions made after it was submitted on 12 Nov 2026:
+
+| # | Bundle | Public score |
+|---|---|---|
+| 15 | v8b, same zip as #14 | 0.13 |
+| 16 | v7b, same zip as #11 and #12 | pending |
+
+The v8b zip scored 0.18 and then 0.13, about three tasks apart out of 58. That is wider than the one-task gap the paper reports for v7b (#11 and #12). It also fits the public census figure of SD ≈ 1.6 tasks for byte-identical submissions. A single submission cannot separate two bundles that are within two or three tasks of each other.
+
 ## Reproducing
 
 Evaluation used the competition's own notebook harness on Kaggle's free 4×L4 quota (about 3.5 h per 30-task run). Load a bundle from `bundles/`, select the task IDs from `results/`, and compare with the CSVs. The trace scripts need the traces the harness writes, which are not redistributed here.
