@@ -31,7 +31,7 @@ The paper's table (§3) ends at #14. Submissions made after it was submitted on 
 | 15 | v8b, same zip as #14 | 0.13 |
 | 16 | v7b, same zip as #11 and #12 | 0.15 |
 
-The v8b zip scored 0.18 and then 0.13, about three tasks apart out of 58. The v7b zip has now scored 0.17, 0.18 and 0.15. Both spreads are wider than the one-task gap the paper reports for v7b (#11 and #12). It also fits the public census figure of SD ≈ 1.6 tasks for byte-identical submissions. A single submission cannot separate two bundles that are within two or three tasks of each other.
+The v8b zip scored 0.18 and then 0.13, about three tasks apart out of 58. The v7b zip has now scored 0.17, 0.18 and 0.15. Both spreads are wider than the one-task gap the paper reports for v7b (#11 and #12). They also fit the public census figure of SD ≈ 1.6 tasks for byte-identical submissions. A single submission cannot separate two bundles that are within two or three tasks of each other.
 
 ## Reproducing
 
